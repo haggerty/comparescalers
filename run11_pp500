@@ -1,0 +1,7 @@
+#!/bin/env csh
+
+# Run 11 500 GeV pp
+./comparescalers 330693 340515 pp500run11 "BBCLL1(>0 tubes)" 6
+./comparescalers 330693 340515 pp500run11 "BBCLL1(>0 tubes) novertex" 14
+./comparescalers 330693 340515 pp500run11 "ZDCLL1wide" 12
+./comparescalers 330693 340515 pp500run11 "BBCLL1(>0 tubes) narrowvtx" 15

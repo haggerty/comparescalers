@@ -1,0 +1,10 @@
+#!/bin/env csh
+
+# Run 9 500 GeV p+p
+
+# ZDCLL1wide-ZDCLL1wide 
+./comparescalers 275940 280238 pp500run9 "ZDCLL1wide" 12
+# ZDCLL1narrow-ZDCLL1narrow 
+./comparescalers 275940 280238 pp500run9 "ZDCLL1narrow" 13
+# ZDCNS-ZDCLL1wide
+./comparescalers 275940 280238 pp500run9 "ZDCLL1wide" 1

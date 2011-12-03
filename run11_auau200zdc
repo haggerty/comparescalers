@@ -1,0 +1,12 @@
+#!/bin/env csh
+
+# Run 11 200 GeV Au+Au
+
+# ZDCNS-ZDCNS
+./comparescalers 341270 349680 auaurun11 "ZDCNS" 1
+# ZDCLL1wide-ZDCLL1wide 
+./comparescalers 341270 349680 auaurun11 "ZDCLL1wide" 12
+# ZDCLL1narrow-ZDCLL1narrow 
+./comparescalers 341270 349680 auaurun11 "ZDCLL1narrow" 13
+# ZDCNS-ZDCLL1wide
+./comparescalers 341270 349680 auaurun11 "ZDCLL1wide" 1

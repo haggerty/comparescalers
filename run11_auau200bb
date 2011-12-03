@@ -1,0 +1,9 @@
+#!/bin/env csh
+
+# Run 11 200 GeV Au+Au
+
+./comparescalers 341270 349680 auaurun11 "BBCLL1(>1 tubes) novertex" 14
+./comparescalers 341270 349680 auaurun11 "BBCLL1(>1 tubes)" 6
+./comparescalers 341270 349680 auaurun11 "BBCLL1(>1 tubes)" 7
+./comparescalers 341270 349680 auaurun11 "BBCLL1(>1 tubes) narrowvtx" 15
+
